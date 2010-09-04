@@ -1,0 +1,5 @@
+# Ignore all the m4 files which might be created by autogen.sh
+*.m4
+!ax_compare_version.m4
+!xcb_util_common.m4
+!xcb_util_m4_with_include_path.m4
