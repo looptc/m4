@@ -37,7 +37,7 @@ fi
 m4_ifndef([XORG_MACROS_VERSION],
           [m4_fatal([must install xorg-macros 1.6.0 or later before running autoconf/autogen])])
 
-XORG_MACROS_VERSION([1.6.0])
+XORG_MACROS_VERSION([1.16.0])
 XORG_DEFAULT_OPTIONS
 XORG_ENABLE_DEVEL_DOCS
 XORG_WITH_DOXYGEN
